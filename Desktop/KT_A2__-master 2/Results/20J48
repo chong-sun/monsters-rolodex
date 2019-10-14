@@ -1,0 +1,183 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     twitter-loc-best20-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    96585
+Attributes:   48
+              a
+              ahaha
+              and
+              are
+              atl
+              atlanta
+              bomb
+              childplease
+              coo
+              da
+              dat
+              dead
+              deadass
+              dis
+              famu
+              famusextape
+              finna
+              flirty
+              frequency
+              ga
+              gsu
+              gw
+              haha
+              hahaha
+              hella
+              ii
+              iight
+              inhighschool
+              juss
+              just
+              know
+              la
+              lmaoo
+              lmaooo
+              lml
+              lowkey
+              parody
+              rt
+              san
+              smh
+              that
+              thatisall
+              the
+              tinos
+              wet
+              will
+              willies
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+childplease <= 0
+|   flirty <= 0
+|   |   willies <= 0
+|   |   |   atlanta <= 0
+|   |   |   |   san <= 0
+|   |   |   |   |   gw <= 0
+|   |   |   |   |   |   thatisall <= 0
+|   |   |   |   |   |   |   coo <= 0
+|   |   |   |   |   |   |   |   atl <= 0
+|   |   |   |   |   |   |   |   |   ga <= 0
+|   |   |   |   |   |   |   |   |   |   hella <= 0
+|   |   |   |   |   |   |   |   |   |   |   lowkey <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   ahaha <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   famusextape <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   bomb <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   famu <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   finna <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   haha <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   hahaha <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   la <= 0: NewYork (93879.0/33749.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   la > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   and <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   the <= 0: NewYork (217.0/97.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   the > 0: California (47.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   and > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   that <= 0: California (23.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   that > 0: NewYork (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   hahaha > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   rt <= 0: California (302.0/121.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   rt > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   inhighschool <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   that <= 0: California (71.0/31.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   that > 0: NewYork (4.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   inhighschool > 0: NewYork (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   haha > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   rt <= 1: California (943.0/380.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   rt > 1: NewYork (25.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   finna > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   the <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   the <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   a <= 1: California (85.0/27.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   a > 1: Georgia (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   the > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   rt <= 0: California (19.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   rt > 0: NewYork (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   the > 1: Georgia (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   famu > 0: Georgia (66.0/25.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   bomb > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   inhighschool <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   will <= 1: California (73.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   will > 1: NewYork (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   inhighschool > 0: NewYork (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   famusextape > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   and <= 0: Georgia (39.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   and > 0: NewYork (8.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   ahaha > 0: California (56.0/13.0)
+|   |   |   |   |   |   |   |   |   |   |   lowkey > 0
+|   |   |   |   |   |   |   |   |   |   |   |   da <= 0: Georgia (43.0/15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   da > 0: California (2.0)
+|   |   |   |   |   |   |   |   |   |   hella > 0
+|   |   |   |   |   |   |   |   |   |   |   know <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   da <= 0: California (168.0/33.0)
+|   |   |   |   |   |   |   |   |   |   |   |   da > 0: NewYork (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   know > 0
+|   |   |   |   |   |   |   |   |   |   |   |   rt <= 0: Georgia (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   rt > 0: California (2.0)
+|   |   |   |   |   |   |   |   |   ga > 0
+|   |   |   |   |   |   |   |   |   |   da <= 0
+|   |   |   |   |   |   |   |   |   |   |   hahaha <= 0: Georgia (57.0/18.0)
+|   |   |   |   |   |   |   |   |   |   |   hahaha > 0: California (2.0)
+|   |   |   |   |   |   |   |   |   |   da > 0: California (2.0)
+|   |   |   |   |   |   |   |   atl > 0: Georgia (97.0/24.0)
+|   |   |   |   |   |   |   coo > 0
+|   |   |   |   |   |   |   |   a <= 1: California (41.0/5.0)
+|   |   |   |   |   |   |   |   a > 1: NewYork (3.0/1.0)
+|   |   |   |   |   |   thatisall > 0
+|   |   |   |   |   |   |   the <= 1: Georgia (37.0/6.0)
+|   |   |   |   |   |   |   the > 1: NewYork (3.0/1.0)
+|   |   |   |   |   gw > 0: California (44.0/5.0)
+|   |   |   |   san > 0: California (39.0/4.0)
+|   |   |   atlanta > 0: Georgia (58.0/9.0)
+|   |   willies > 0: Georgia (45.0/4.0)
+|   flirty > 0: California (29.0)
+childplease > 0: Georgia (26.0)
+
+Number of Leaves  : 	43
+
+Size of the tree : 	85
+
+
+Time taken to build model: 80.21 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.16 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       22228               65.3227 %
+Incorrectly Classified Instances     11800               34.6773 %
+Kappa statistic                          0.052 
+Mean absolute error                      0.3454
+Root mean squared error                  0.4137
+Relative absolute error                 98.1631 %
+Root relative squared error             99.1465 %
+Total Number of Instances            34028     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.993    0.952    0.654      0.993    0.788      0.134    0.521     0.654     NewYork
+                 0.054    0.008    0.609      0.054    0.100      0.140    0.526     0.219     California
+                 0.020    0.002    0.726      0.020    0.040      0.103    0.513     0.180     Georgia
+Weighted Avg.    0.653    0.615    0.657      0.653    0.533      0.130    0.521     0.493     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 21761   133    25 |     a = NewYork
+  6131   353    18 |     b = California
+  5399    94   114 |     c = Georgia
+

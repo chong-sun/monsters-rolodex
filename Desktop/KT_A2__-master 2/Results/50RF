@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     twitter-loc-best50-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    96585
+Attributes:   123
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 1483.75 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 10.25 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       21648               63.6182 %
+Incorrectly Classified Instances     12380               36.3818 %
+Kappa statistic                          0.0742
+Mean absolute error                      0.3334
+Root mean squared error                  0.418 
+Relative absolute error                 94.742  %
+Root relative squared error            100.1806 %
+Total Number of Instances            34028     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.943    0.877    0.661      0.943    0.777      0.116    0.602     0.724     NewYork
+                 0.107    0.041    0.380      0.107    0.167      0.115    0.592     0.264     California
+                 0.050    0.022    0.310      0.050    0.086      0.065    0.557     0.206     Georgia
+Weighted Avg.    0.636    0.576    0.549      0.636    0.547      0.107    0.593     0.551     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 20671   794   454 |     a = NewYork
+  5636   697   169 |     b = California
+  4984   343   280 |     c = Georgia
+

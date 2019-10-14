@@ -1,0 +1,380 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     twitter-loc-best20-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    96585
+Attributes:   48
+              a
+              ahaha
+              and
+              are
+              atl
+              atlanta
+              bomb
+              childplease
+              coo
+              da
+              dat
+              dead
+              deadass
+              dis
+              famu
+              famusextape
+              finna
+              flirty
+              frequency
+              ga
+              gsu
+              gw
+              haha
+              hahaha
+              hella
+              ii
+              iight
+              inhighschool
+              juss
+              just
+              know
+              la
+              lmaoo
+              lmaooo
+              lml
+              lowkey
+              parody
+              rt
+              san
+              smh
+              that
+              thatisall
+              the
+              tinos
+              wet
+              will
+              willies
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                    Class
+Attribute         NewYork California    Georgia
+                   (0.63)     (0.21)     (0.16)
+================================================
+a
+  mean              0.1515     0.1813     0.1822
+  std. dev.         0.4105     0.4502     0.4505
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+ahaha
+  mean              0.0002     0.0021          0
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+and
+  mean              0.0804     0.1064     0.1126
+  std. dev.         0.3008     0.3418      0.346
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+are
+  mean              0.0199      0.036     0.0335
+  std. dev.         0.1667     0.1939     0.1879
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+atl
+  mean              0.0004     0.0002     0.0051
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+atlanta
+  mean              0.0001     0.0002     0.0036
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+bomb
+  mean              0.0002     0.0028     0.0005
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+childplease
+  mean                   0          0     0.0018
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+coo
+  mean              0.0001     0.0018     0.0003
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+da
+  mean              0.0284      0.009     0.0219
+  std. dev.          0.185     0.1667     0.1675
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+dat
+  mean              0.0153     0.0054       0.01
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+dead
+  mean              0.0082     0.0016      0.003
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+deadass
+  mean              0.0029          0     0.0003
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+dis
+  mean              0.0093     0.0024     0.0052
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+famu
+  mean              0.0003     0.0004     0.0028
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+famusextape
+  mean              0.0002     0.0001      0.002
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+finna
+  mean              0.0003     0.0036     0.0018
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+flirty
+  mean                   0     0.0014          0
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+frequency
+  mean                   0          0     0.0013
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+ga
+  mean              0.0001     0.0016     0.0028
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+gsu
+  mean                   0          0     0.0013
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+gw
+  mean              0.0001     0.0032          0
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+haha
+  mean              0.0047     0.0293     0.0078
+  std. dev.         0.1667     0.1747     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+hahaha
+  mean              0.0018      0.012     0.0037
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+hella
+  mean              0.0004     0.0071      0.001
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+ii
+  mean              0.0097     0.0007     0.0055
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+iight
+  mean              0.0049     0.0006     0.0009
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+inhighschool
+  mean              0.0145      0.002     0.0036
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+juss
+  mean              0.0036     0.0024     0.0003
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+just
+  mean              0.0371     0.0508     0.0547
+  std. dev.         0.1938     0.2239     0.2343
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+know
+  mean              0.0226     0.0306     0.0382
+  std. dev.         0.1667     0.1804     0.2026
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+la
+  mean              0.0029     0.0079     0.0013
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+lmaoo
+  mean              0.0122     0.0017     0.0016
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+lmaooo
+  mean               0.009     0.0012     0.0016
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+lml
+  mean              0.0072     0.0001     0.0005
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+lowkey
+  mean                   0     0.0007      0.002
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+parody
+  mean                   0          0     0.0013
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+rt
+  mean              0.2606     0.2005     0.2195
+  std. dev.         0.5635      0.498     0.5069
+  weight sum         60810      20629      15146
+  precision          1.125      1.125      1.125
+
+san
+  mean                   0     0.0017     0.0001
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+smh
+  mean              0.0245     0.0112     0.0152
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+that
+  mean              0.0699     0.0949     0.0944
+  std. dev.         0.2762     0.3169     0.3177
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+thatisall
+  mean              0.0001     0.0001     0.0021
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+the
+  mean              0.1837     0.2285     0.2375
+  std. dev.          0.465     0.5228     0.5278
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+tinos
+  mean                   0          0     0.0012
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+wet
+  mean              0.0009     0.0011      0.004
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+will
+  mean              0.0127      0.018     0.0267
+  std. dev.         0.1667     0.1667     0.1693
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+willies
+  mean                   0          0     0.0029
+  std. dev.         0.1667     0.1667     0.1667
+  weight sum         60810      20629      15146
+  precision              1          1          1
+
+
+
+Time taken to build model: 0.36 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 1.47 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       21124               62.0783 %
+Incorrectly Classified Instances     12904               37.9217 %
+Kappa statistic                          0.0354
+Mean absolute error                      0.3461
+Root mean squared error                  0.4233
+Relative absolute error                 98.3569 %
+Root relative squared error            101.4574 %
+Total Number of Instances            34028     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.933    0.894    0.654      0.933    0.769      0.068    0.568     0.685     NewYork
+                 0.065    0.049    0.240      0.065    0.102      0.029    0.557     0.219     California
+                 0.044    0.026    0.251      0.044    0.075      0.040    0.558     0.193     Georgia
+Weighted Avg.    0.621    0.590    0.508      0.621    0.527      0.056    0.564     0.515     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 20455   941   523 |     a = NewYork
+  5867   422   213 |     b = California
+  4964   396   247 |     c = Georgia
+

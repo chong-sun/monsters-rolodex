@@ -1,0 +1,308 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.LMT -I -1 -M 15 -W 0.0
+Relation:     twitter-loc-best200-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    3190
+Attributes:   455
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic model tree 
+------------------
+: LM_1:105/105 (3190)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class NewYork :
+0    + 
+[about] * -0.05 +
+[af] * -0.66 +
+[are] * -0.09 +
+[ave] * 0.51 +
+[aye] * -0.28 +
+[bbm] * 0.32 +
+[bk] * 0.99 +
+[brooklyn] * 0.48 +
+[bt] * -0.31 +
+[buggin] * 0.49 +
+[bus] * 0.53 +
+[cablevision] * 2.38 +
+[chillen] * 0.52 +
+[coo] * -0.44 +
+[crib] * 0.42 +
+[dam] * 0.32 +
+[dang] * -1.43 +
+[deadass] * 0.55 +
+[def] * 0.27 +
+[fa] * -0.4 +
+[fab] * 0.37 +
+[finna] * -0.89 +
+[flow] * 0.91 +
+[folks] * -0.38 +
+[foo] * -0.79 +
+[for] * 0.03 +
+[frequency] * -0.99 +
+[ga] * -0.28 +
+[get] * -0.04 +
+[gone] * -0.16 +
+[haha] * -0.25 +
+[hahahaha] * -0.25 +
+[harlem] * 0.95 +
+[headed] * -0.36 +
+[hella] * -0.57 +
+[hmu] * -0.74 +
+[icheatedbecause] * -0.14 +
+[iight] * 0.62 +
+[in] * 0.02 +
+[inhighschool] * 0.34 +
+[ion] * -0.76 +
+[jamaica] * 0.73 +
+[jets] * 0.08 +
+[jk] * -0.22 +
+[kissing] * -1.04 +
+[knw] * -0.49 +
+[lmaoo] * 0.22 +
+[lmaooo] * 0.46 +
+[lmaoooo] * 0.24 +
+[lmaooooo] * 0.54 +
+[lmfaoo] * 0.34 +
+[lmfaoooo] * 0.43 +
+[lml] * 0.75 +
+[lowkey] * -0.82 +
+[maam] * -0.53 +
+[mad] * 0.11 +
+[madd] * 0.49 +
+[na] * 0.36 +
+[nah] * 0.2  +
+[naw] * -0.69 +
+[noe] * 0.25 +
+[nuttin] * 0.44 +
+[ny] * 0.37 +
+[odee] * 1.2  +
+[oovoo] * 0.67 +
+[papi] * 0.73 +
+[party] * 0.14 +
+[rt] * 0.01 +
+[skool] * 0.23 +
+[smacked] * 0.55 +
+[smfh] * 0.32 +
+[smh] * 0.05 +
+[smhh] * 0.43 +
+[spelman] * -0.78 +
+[sucks] * 0.26 +
+[train] * 0.82 +
+[trippin] * -0.5 +
+[vegas] * -0.44 +
+[wassup] * 0.18 +
+[wat] * 0.16 +
+[wet] * -0.38 +
+[when] * -0.05 +
+[ya] * 0.12
+
+Class California :
+-0.81 + 
+[af] * 0.81 +
+[ahaha] * 1.25 +
+[ahahaha] * 0.56 +
+[alice] * 0.65 +
+[amazing] * 0.5  +
+[anaheim] * 2.56 +
+[area] * 0.69 +
+[bay] * 0.33 +
+[bc] * -0.24 +
+[bomb] * 0.97 +
+[bucks] * 0.49 +
+[ca] * 1.2  +
+[cali] * 1.39 +
+[california] * 1.94 +
+[chillin] * -0.19 +
+[christ] * -0.69 +
+[coffee] * 0.41 +
+[coo] * 1.17 +
+[cuh] * 1.46 +
+[cuhz] * 2.09 +
+[dat] * -0.09 +
+[dead] * -0.36 +
+[deadass] * -1.36 +
+[dem] * -0.36 +
+[den] * -0.29 +
+[dennys] * 1.44 +
+[dis] * -0.23 +
+[dodgers] * 0.61 +
+[dom] * 0.14 +
+[dope] * 0.29 +
+[dork] * 0.93 +
+[fasho] * 2.18 +
+[foo] * 0.98 +
+[function] * 1.16 +
+[game] * 0.19 +
+[going] * -0.08 +
+[haha] * 0.26 +
+[hahah] * 0.22 +
+[hahaha] * 0.32 +
+[hella] * 0.84 +
+[hmu] * 1.32 +
+[hollywood] * 1.32 +
+[huh] * 0.18 +
+[ight] * -0.33 +
+[ii] * -0.09 +
+[ill] * 0.08 +
+[inhighschool] * -0.15 +
+[jadi] * 0.72 +
+[koo] * 1.45 +
+[la] * 0.07 +
+[laker] * 0.86 +
+[lmfaoo] * -0.69 +
+[mah] * 0.21 +
+[neva] * -0.31 +
+[niggas] * -0.14 +
+[np] * -0.44 +
+[nun] * -0.66 +
+[oakland] * 1.95 +
+[od] * -0.99 +
+[papi] * 0.19 +
+[pretty] * 0.2  +
+[pride] * -0.78 +
+[queens] * -1.03 +
+[rain] * 0.95 +
+[raining] * 0.76 +
+[random] * -0.2 +
+[randomthoughts] * 0.34 +
+[refs] * 1.1  +
+[rofl] * 0.21 +
+[san] * 1.96 +
+[santa] * 1.07 +
+[sf] * 1.08 +
+[shyt] * -0.22 +
+[smh] * -0.11 +
+[spring] * -0.26 +
+[taco] * 0.59 +
+[tacos] * 1.75 +
+[tha] * 0.1  +
+[thatswhyileftyou] * 0.47 +
+[vegas] * 0.66 +
+[ya] * -0.12
+
+Class Georgia :
+-1.69 + 
+[ab] * 0.52 +
+[aha] * 0.17 +
+[am] * -0.08 +
+[atl] * 2.16 +
+[atlanta] * 2.37 +
+[auc] * 1.35 +
+[augusta] * 1.49 +
+[bae] * 0.79 +
+[bahahaha] * 0.79 +
+[baow] * 1.13 +
+[basic] * 1.07 +
+[becuz] * 0.56 +
+[blog] * 0.3  +
+[boaw] * 0.55 +
+[break] * 0.45 +
+[bro] * -0.12 +
+[bruh] * 0.48 +
+[campus] * 0.37 +
+[coolin] * 0.83 +
+[coon] * 0.69 +
+[crisantasbreast] * 0.33 +
+[d] * -0.26 +
+[dem] * 0.31 +
+[donnie] * 1.39 +
+[dreads] * 0.88 +
+[drunk] * 0.33 +
+[factsaboutme] * 0.78 +
+[famu] * 0.86 +
+[famusextape] * 0.62 +
+[flexin] * 2.64 +
+[florida] * 0.5  +
+[follow] * -0.08 +
+[freaknik] * 1.57 +
+[frequency] * 1.41 +
+[ga] * 0.38 +
+[gas] * 0.7  +
+[girl] * 0.11 +
+[gon] * 0.15 +
+[gone] * 0.21 +
+[gsu] * 1.67 +
+[guys] * -0.17 +
+[hell] * 0.33 +
+[hwy] * 1.72 +
+[icheated] * 0.85 +
+[ifuckmymoneyupnowicantreup] * 1.49 +
+[iight] * -0.31 +
+[ilovefamu] * 1.04 +
+[ion] * 0.86 +
+[ish] * 0.44 +
+[killyoself] * 1.93 +
+[know] * 0.05 +
+[knw] * 0.35 +
+[la] * -0.3 +
+[lenox] * 1.3  +
+[lmaoo] * -0.2 +
+[lmfaooooo] * -0.78 +
+[lord] * 0.4  +
+[ltlt] * 0.22 +
+[marta] * 3.14 +
+[midterms] * 0.74 +
+[nah] * -0.31 +
+[name] * 0.13 +
+[nun] * 0.71 +
+[omw] * -0.54 +
+[p] * -0.14 +
+[pageant] * 1.08 +
+[papi] * -1.09 +
+[patna] * 1.08 +
+[pcb] * 2.03 +
+[posted] * -0.43 +
+[pride] * 0.8  +
+[savannah] * 3.6  +
+[sb] * 0.83 +
+[services] * 0.79 +
+[sextape] * 0.53 +
+[shoot] * 0.27 +
+[sir] * 0.44 +
+[spelman] * 0.74 +
+[station] * 0.52 +
+[stonecrest] * 0.67 +
+[subliminaltweet] * 1.54 +
+[suburbs] * 1.29 +
+[thatisall] * 1.02 +
+[tinos] * 1.86 +
+[will] * 0.14 +
+[willies] * 1.76
+
+
+Time taken to build model: 179.68 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2641               82.79   %
+Incorrectly Classified Instances       549               17.21   %
+Kappa statistic                          0.6614
+Mean absolute error                      0.1617
+Root mean squared error                  0.2865
+Relative absolute error                 45.1898 %
+Root relative squared error             67.7571 %
+Total Number of Instances             3190     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.936    0.276    0.849      0.936    0.890      0.689    0.935     0.953     NewYork
+                 0.699    0.055    0.789      0.699    0.741      0.673    0.934     0.831     California
+                 0.572    0.031    0.766      0.572    0.655      0.613    0.905     0.734     Georgia
+Weighted Avg.    0.828    0.189    0.823      0.828    0.822      0.674    0.930     0.893     
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1864   77   51 |    a = NewYork
+  186  506   32 |    b = California
+  145   58  271 |    c = Georgia
+

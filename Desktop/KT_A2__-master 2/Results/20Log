@@ -1,0 +1,198 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     twitter-loc-best20-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    96585
+Attributes:   48
+              a
+              ahaha
+              and
+              are
+              atl
+              atlanta
+              bomb
+              childplease
+              coo
+              da
+              dat
+              dead
+              deadass
+              dis
+              famu
+              famusextape
+              finna
+              flirty
+              frequency
+              ga
+              gsu
+              gw
+              haha
+              hahaha
+              hella
+              ii
+              iight
+              inhighschool
+              juss
+              just
+              know
+              la
+              lmaoo
+              lmaooo
+              lml
+              lowkey
+              parody
+              rt
+              san
+              smh
+              that
+              thatisall
+              the
+              tinos
+              wet
+              will
+              willies
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                         Class
+Variable               NewYork      California
+==============================================
+a                       -0.135          0.0108
+ahaha                  13.8366         16.1411
+and                    -0.2148         -0.0336
+are                    -0.4252          0.0574
+atl                    -2.5463         -3.0131
+atlanta                -3.7981         -2.5874
+bomb                   -0.7599          1.6641
+childplease           -22.3694        -14.0331
+coo                    -1.2678          2.0101
+da                      0.1336         -0.7358
+dat                     0.2681         -0.5212
+dead                    0.9008         -0.5756
+deadass                 2.0903          -1.903
+dis                     0.4068         -0.7102
+famu                    -1.896         -1.6896
+famusextape            -2.2668         -2.5386
+finna                  -1.7083          0.6737
+flirty               -109.4055         19.3572
+frequency             -17.1596         -3.1393
+ga                     -3.5354         -0.9201
+gsu                   -16.5383        -16.3974
+gw                     12.9123         15.2519
+haha                   -0.4797          1.2794
+hahaha                 -0.7499          1.1146
+hella                  -0.8516          1.8968
+ii                      0.3394         -1.7514
+iight                   1.6441           -0.37
+inhighschool            1.4158         -0.5677
+juss                     2.242          2.0029
+just                   -0.3002         -0.0758
+know                   -0.3899         -0.1744
+la                      0.7699           1.399
+lmaoo                   1.9678          0.0732
+lmaooo                  1.6485         -0.2538
+lml                     2.6012          -1.516
+lowkey                 -3.9134         -1.0806
+parody                -16.8118          -3.135
+rt                      0.1812         -0.0658
+san                     -1.505          2.5186
+smh                     0.4739         -0.2562
+that                   -0.2257          0.0028
+thatisall               -3.034         -3.0588
+the                     -0.172         -0.0113
+tinos                 -17.2517        -16.7677
+wet                     -0.259         -0.1143
+will                   -0.6032         -0.3422
+willies                 -3.493          -3.664
+Intercept               1.4595           0.341
+
+
+Odds Ratios...
+                         Class
+Variable               NewYork      California
+==============================================
+a                       0.8737          1.0109
+ahaha             1021290.0915   10232902.8198
+and                     0.8067          0.9669
+are                     0.6536          1.0591
+atl                     0.0784          0.0491
+atlanta                 0.0224          0.0752
+bomb                    0.4677           5.281
+childplease                  0               0
+coo                     0.2814          7.4639
+da                       1.143          0.4791
+dat                     1.3074          0.5938
+dead                    2.4616          0.5624
+deadass                 8.0871          0.1491
+dis                      1.502          0.4916
+famu                    0.1502          0.1846
+famusextape             0.1036           0.079
+finna                   0.1812          1.9615
+flirty                       0  255119042.7381
+frequency                    0          0.0433
+ga                      0.0291          0.3985
+gsu                          0               0
+gw                  405259.027    4205314.5694
+haha                     0.619          3.5946
+hahaha                  0.4724          3.0482
+hella                   0.4267          6.6649
+ii                      1.4041          0.1735
+iight                   5.1761          0.6907
+inhighschool            4.1197          0.5668
+juss                    9.4121          7.4103
+just                    0.7407           0.927
+know                    0.6771            0.84
+la                      2.1597          4.0513
+lmaoo                    7.155           1.076
+lmaooo                  5.1991          0.7759
+lml                      13.48          0.2196
+lowkey                    0.02          0.3394
+parody                       0          0.0435
+rt                      1.1986          0.9363
+san                      0.222         12.4106
+smh                     1.6063           0.774
+that                     0.798          1.0028
+thatisall               0.0481          0.0469
+the                      0.842          0.9888
+tinos                        0               0
+wet                     0.7718           0.892
+will                    0.5471          0.7102
+willies                 0.0304          0.0256
+
+
+Time taken to build model: 26.49 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.17 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       22227               65.3197 %
+Incorrectly Classified Instances     11801               34.6803 %
+Kappa statistic                          0.054 
+Mean absolute error                      0.3384
+Root mean squared error                  0.4102
+Relative absolute error                 96.1693 %
+Root relative squared error             98.3233 %
+Total Number of Instances            34028     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.992    0.949    0.654      0.992    0.788      0.133    0.594     0.719     NewYork
+                 0.055    0.009    0.589      0.055    0.101      0.137    0.584     0.262     California
+                 0.024    0.002    0.717      0.024    0.046      0.111    0.575     0.227     Georgia
+Weighted Avg.    0.653    0.614    0.652      0.653    0.535      0.130    0.589     0.551     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 21734   149    36 |     a = NewYork
+  6126   359    17 |     b = California
+  5371   102   134 |     c = Georgia
+

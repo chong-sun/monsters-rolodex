@@ -1,0 +1,114 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     twitter-loc-best10-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    96585
+Attributes:   25
+              and
+              are
+              atl
+              atlanta
+              bomb
+              childplease
+              da
+              famu
+              gsu
+              gw
+              haha
+              hahaha
+              hella
+              ii
+              inhighschool
+              la
+              lmaoo
+              lmaooo
+              lml
+              parody
+              rt
+              thatisall
+              the
+              wet
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+childplease <= 0
+|   atlanta <= 0
+|   |   gw <= 0
+|   |   |   atl <= 0
+|   |   |   |   hella <= 0
+|   |   |   |   |   haha <= 0
+|   |   |   |   |   |   thatisall <= 0
+|   |   |   |   |   |   |   bomb <= 0
+|   |   |   |   |   |   |   |   hahaha <= 0
+|   |   |   |   |   |   |   |   |   famu <= 0
+|   |   |   |   |   |   |   |   |   |   la <= 0: NewYork (94342.0/34154.0)
+|   |   |   |   |   |   |   |   |   |   la > 0
+|   |   |   |   |   |   |   |   |   |   |   and <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   the <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   rt <= 0: NewYork (173.0/79.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   rt > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   la <= 1: NewYork (40.0/15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   la > 1: California (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   the > 0: California (47.0/17.0)
+|   |   |   |   |   |   |   |   |   |   |   and > 0: California (26.0/7.0)
+|   |   |   |   |   |   |   |   |   famu > 0: Georgia (65.0/25.0)
+|   |   |   |   |   |   |   |   hahaha > 0: California (384.0/159.0)
+|   |   |   |   |   |   |   bomb > 0
+|   |   |   |   |   |   |   |   inhighschool <= 0: California (74.0/19.0)
+|   |   |   |   |   |   |   |   inhighschool > 0: NewYork (3.0)
+|   |   |   |   |   |   thatisall > 0
+|   |   |   |   |   |   |   the <= 1: Georgia (37.0/6.0)
+|   |   |   |   |   |   |   the > 1: NewYork (3.0/1.0)
+|   |   |   |   |   haha > 0
+|   |   |   |   |   |   rt <= 1: California (949.0/382.0)
+|   |   |   |   |   |   rt > 1: NewYork (25.0/10.0)
+|   |   |   |   hella > 0
+|   |   |   |   |   da <= 0: California (175.0/37.0)
+|   |   |   |   |   da > 0: NewYork (4.0/1.0)
+|   |   |   atl > 0: Georgia (100.0/26.0)
+|   |   gw > 0: California (44.0/5.0)
+|   atlanta > 0: Georgia (62.0/9.0)
+childplease > 0: Georgia (26.0)
+
+Number of Leaves  : 	20
+
+Size of the tree : 	39
+
+
+Time taken to build model: 16.38 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.1 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       22166               65.1405 %
+Incorrectly Classified Instances     11862               34.8595 %
+Kappa statistic                          0.0428
+Mean absolute error                      0.347 
+Root mean squared error                  0.4144
+Relative absolute error                 98.6116 %
+Root relative squared error             99.3274 %
+Total Number of Instances            34028     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.993    0.961    0.652      0.993    0.787      0.117    0.517     0.652     NewYork
+                 0.050    0.007    0.612      0.050    0.092      0.134    0.523     0.214     California
+                 0.012    0.001    0.734      0.012    0.024      0.081    0.508     0.173     Georgia
+Weighted Avg.    0.651    0.620    0.658      0.651    0.529      0.114    0.517     0.489     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 21775   127    17 |     a = NewYork
+  6172   322     8 |     b = California
+  5461    77    69 |     c = Georgia
+

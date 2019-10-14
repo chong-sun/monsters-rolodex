@@ -1,0 +1,73 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     twitter-loc-best10-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    96585
+Attributes:   25
+              and
+              are
+              atl
+              atlanta
+              bomb
+              childplease
+              da
+              famu
+              gsu
+              gw
+              haha
+              hahaha
+              hella
+              ii
+              inhighschool
+              la
+              lmaoo
+              lmaooo
+              lml
+              parody
+              rt
+              thatisall
+              the
+              wet
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 176.6 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 2.12 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       22158               65.117  %
+Incorrectly Classified Instances     11870               34.883  %
+Kappa statistic                          0.0434
+Mean absolute error                      0.3419
+Root mean squared error                  0.4125
+Relative absolute error                 97.1729 %
+Root relative squared error             98.873  %
+Total Number of Instances            34028     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.993    0.959    0.652      0.993    0.787      0.116    0.565     0.694     NewYork
+                 0.049    0.008    0.601      0.049    0.091      0.131    0.563     0.246     California
+                 0.015    0.001    0.669      0.015    0.029      0.082    0.548     0.197     Georgia
+Weighted Avg.    0.651    0.620    0.645      0.651    0.529      0.113    0.562     0.527     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 21756   136    27 |     a = NewYork
+  6169   319    14 |     b = California
+  5448    76    83 |     c = Georgia
+

@@ -1,0 +1,301 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     twitter-loc-best50-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    96585
+Attributes:   123
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                      Class
+Variable                            NewYork             California
+==================================================================
+a                                   -0.0956                 0.0054
+ada                                -88.9263                27.2793
+af                                  -2.0635                 1.1791
+aha                                 -4.1436                -0.1402
+ahaha                               13.1965                15.6055
+ahahaha                             -0.7994                 2.1068
+aja                                 -10.911                14.4563
+and                                 -0.1742                -0.0299
+andthenwehadsex                     -0.3158                 1.4925
+are                                 -0.4057                 0.0656
+atl                                 -2.4592                -2.9875
+atlanta                             -3.6786                -2.5509
+auc                                -17.8108               -18.4804
+banget                             -141.324                62.9836
+bbm                                  1.0351                 0.5455
+boaw                               -16.7532               -16.5782
+bomb                                -0.6876                 1.6876
+break                               -0.6692                -0.4753
+bruh                                -1.6825                -0.7927
+cau                                -18.0481               -16.5028
+childplease                        -18.7553               -24.0425
+coo                                 -1.3983                 1.9142
+crisantasbreast                    -18.2113               -20.6543
+cuh                                 31.4072                35.1514
+cuhz                               -68.1814                16.6413
+d                                    0.7662                 1.0794
+da                                    0.087                -0.7358
+dat                                  0.2019                 -0.491
+dats                                 1.0821                -0.0557
+dead                                 0.8718                -0.5687
+deadass                              1.9886                -1.8996
+dem                                  0.0188                -1.6476
+dha                                  3.1084               -11.3985
+dis                                  0.3776                -0.6943
+dom                                 46.3484                 49.806
+dormtainment                       -19.5889               -22.3496
+fab                                  1.7033                -0.1283
+famu                                -1.8281                -1.6062
+famusextape                         -2.1946                -2.5356
+fasho                               -1.4304                 2.7739
+finna                               -1.6736                 0.6638
+flirty                             -95.1794                18.6964
+followdormtainment                 -18.1045               -17.1939
+foo                                 -2.1732                 1.9341
+for                                 -0.0461                 0.0951
+freaknik                            -2.7332               -15.5272
+frequency                          -18.0133                -2.9185
+ga                                  -3.6855                -1.3948
+gsu                                -17.2437               -16.1892
+gw                                  14.0028                16.0154
+haha                                -0.4798                 1.2654
+hahaa                               54.0954                57.2033
+hahah                               -0.3612                 1.3136
+hahaha                              -0.7737                 1.0904
+hahahaha                            -0.6996                  0.918
+has                                 -0.3584                 0.0533
+have                                 -0.219                 0.0176
+hehe                                 -0.403                 1.0903
+hella                               -0.8959                 1.9158
+icheatedbecause                     -1.5516                -0.5769
+ii                                   0.2936                -1.7298
+iight                                1.6399                -0.3306
+inhighschool                         1.3985                -0.5524
+ion                                 -3.2223                -1.9345
+is                                  -0.0989                -0.0369
+ish                                 -1.1922                -0.9391
+it                                  -0.1043                 0.0409
+ive                                 -0.5886                 0.1119
+juss                                 2.1838                 2.0044
+just                                 -0.274                 -0.075
+know                                -0.3543                -0.1588
+knw                                 -1.6947                -0.6919
+la                                   0.7787                 1.3798
+lmaoo                                 1.884                 0.0496
+lmaooo                               1.6003                 -0.294
+lmaoooo                              1.1759                -0.2832
+lmfaoo                               2.1438                -0.5619
+lmfaooo                              2.1258                  0.334
+lml                                  2.5232                -1.4964
+lols                                27.0387                24.9476
+lowkey                              -3.8695                -1.0117
+ma                                   1.0127                 0.4984
+mad                                  0.4833                -0.1971
+madd                                   1.86                -0.1877
+miami                               -0.4359                 -1.062
+nah                                  1.3736                 0.7316
+naw                                 -1.5763                 0.0738
+nd                                   0.8656                 0.5168
+neighbors                            -1.323                -0.7591
+neva                                 0.4358                -0.9739
+odee                                 2.3112               -15.6162
+of                                   -0.113                 0.0684
+oovoo                               24.8183                21.8835
+parody                            -111.0164                -2.4496
+pcb                                -18.8694               -17.1798
+quote                               -0.5499                 1.5288
+rain                                 0.3367                 1.6966
+raining                             -0.4856                 2.0054
+rt                                   0.1896                -0.0727
+san                                 -1.2914                 2.6448
+sb                                     -2.6                -2.0965
+shyt                                 0.1885                -1.0642
+sir                                 -1.3267                -1.2604
+skool                                2.0737                 0.6609
+smh                                  0.4742                -0.2592
+spelman                            -18.8306               -19.4332
+spring                              -0.6841                 -1.517
+tacos                               78.0085                80.9528
+that                                -0.2031                 0.0039
+thatisall                           -2.9893                -3.0209
+the                                 -0.1195                -0.0182
+this                                -0.2057                -0.1693
+tho                                  0.5327                 0.4861
+tinos                               -17.143               -17.9939
+to                                  -0.0488                -0.0237
+u                                    0.1695                  0.012
+wat                                  0.7033                  -0.04
+wet                                 -0.1931                -0.0756
+what                                -0.2887                -0.0759
+will                                -0.5743                 -0.345
+willies                             -3.4517                -3.6249
+with                                -0.1546                 0.0524
+Intercept                            1.4547                 0.3321
+
+
+Odds Ratios...
+                                      Class
+Variable                            NewYork             California
+==================================================================
+a                                    0.9088                 1.0054
+ada                                       0   7.034798084294624E11
+af                                    0.127                 3.2513
+aha                                  0.0159                 0.8692
+ahaha                           538479.7623           5989644.7322
+ahahaha                              0.4496                  8.222
+aja                                       0           1897928.2339
+and                                  0.8402                 0.9705
+andthenwehadsex                      0.7292                 4.4482
+are                                  0.6665                 1.0678
+atl                                  0.0855                 0.0504
+atlanta                              0.0253                  0.078
+auc                                       0                      0
+banget                                    0  2.2565313048081857E27
+bbm                                  2.8155                 1.7256
+boaw                                      0                      0
+bomb                                 0.5028                 5.4066
+break                                0.5121                 0.6217
+bruh                                 0.1859                 0.4526
+cau                                       0                      0
+childplease                               0                      0
+coo                                   0.247                 6.7814
+crisantasbreast                           0                      0
+cuh                    4.365063827456538E13   1.845349050774081E15
+cuhz                                      0          16874743.4401
+d                                    2.1516                  2.943
+da                                   1.0909                 0.4791
+dat                                  1.2237                  0.612
+dats                                 2.9508                 0.9458
+dead                                 2.3912                 0.5663
+deadass                               7.305                 0.1496
+dem                                   1.019                 0.1925
+dha                                 22.3863                      0
+dis                                  1.4588                 0.4994
+dom                   1.3454014370606549E20   4.270355269384836E21
+dormtainment                              0                      0
+fab                                  5.4923                 0.8796
+famu                                 0.1607                 0.2007
+famusextape                          0.1114                 0.0792
+fasho                                0.2392                16.0205
+finna                                0.1876                 1.9421
+flirty                                    0         131744633.7455
+followdormtainment                        0                      0
+foo                                  0.1138                 6.9177
+for                                  0.9549                 1.0998
+freaknik                              0.065                      0
+frequency                                 0                  0.054
+ga                                   0.0251                 0.2479
+gsu                                       0                      0
+gw                             1205953.1392           9024345.8345
+haha                                 0.6189                 3.5446
+hahaa                 3.1141390236641896E23   6.967635221481753E24
+hahah                                0.6968                 3.7195
+hahaha                               0.4613                 2.9754
+hahahaha                             0.4968                 2.5043
+has                                  0.6988                 1.0547
+have                                 0.8033                 1.0178
+hehe                                 0.6683                 2.9751
+hella                                0.4082                 6.7923
+icheatedbecause                      0.2119                 0.5616
+ii                                   1.3413                 0.1773
+iight                                5.1549                 0.7185
+inhighschool                          4.049                 0.5755
+ion                                  0.0399                 0.1445
+is                                   0.9059                 0.9638
+ish                                  0.3035                  0.391
+it                                    0.901                 1.0417
+ive                                  0.5551                 1.1185
+juss                                 8.8801                 7.4219
+just                                 0.7603                 0.9277
+know                                 0.7016                 0.8531
+knw                                  0.1837                 0.5006
+la                                   2.1786                 3.9742
+lmaoo                                6.5797                 1.0509
+lmaooo                               4.9544                 0.7453
+lmaoooo                              3.2411                 0.7533
+lmfaoo                               8.5322                 0.5701
+lmfaooo                              8.3795                 1.3966
+lml                                 12.4689                 0.2239
+lols                   5.530652100309683E11    6.83258165930984E10
+lowkey                               0.0209                 0.3636
+ma                                    2.753                 1.6461
+mad                                  1.6214                 0.8211
+madd                                 6.4235                 0.8289
+miami                                0.6467                 0.3458
+nah                                  3.9497                 2.0783
+naw                                  0.2067                 1.0766
+nd                                   2.3764                 1.6766
+neighbors                            0.2663                 0.4681
+neva                                 1.5462                 0.3776
+odee                                10.0866                      0
+of                                   0.8932                 1.0707
+oovoo                 6.0041106141200874E10        3190636307.8678
+parody                                    0                 0.0863
+pcb                                       0                      0
+quote                                 0.577                 4.6125
+rain                                 1.4004                 5.4553
+raining                              0.6153                 7.4293
+rt                                   1.2088                 0.9299
+san                                  0.2749                14.0801
+sb                                   0.0743                 0.1229
+shyt                                 1.2074                  0.345
+sir                                  0.2653                 0.2835
+skool                                7.9544                 1.9365
+smh                                  1.6067                 0.7717
+spelman                                   0                      0
+spring                               0.5045                 0.2194
+tacos                  7.562237108293482E33   1.436668959968968E35
+that                                 0.8162                 1.0039
+thatisall                            0.0503                 0.0488
+the                                  0.8874                  0.982
+this                                 0.8141                 0.8442
+tho                                  1.7036                 1.6259
+tinos                                     0                      0
+to                                   0.9524                 0.9766
+u                                    1.1847                 1.0121
+wat                                  2.0203                 0.9607
+wet                                  0.8244                 0.9272
+what                                 0.7492                 0.9269
+will                                 0.5631                 0.7082
+willies                              0.0317                 0.0267
+with                                 0.8568                 1.0538
+
+
+Time taken to build model: 254.27 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.36 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       22311               65.5666 %
+Incorrectly Classified Instances     11717               34.4334 %
+Kappa statistic                          0.078 
+Mean absolute error                      0.3309
+Root mean squared error                  0.4066
+Relative absolute error                 94.0328 %
+Root relative squared error             97.4463 %
+Total Number of Instances            34028     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.984    0.921    0.659      0.984    0.790      0.158    0.631     0.754     NewYork
+                 0.082    0.015    0.569      0.082    0.144      0.162    0.621     0.301     California
+                 0.036    0.006    0.560      0.036    0.067      0.110    0.600     0.246     Georgia
+Weighted Avg.    0.656    0.597    0.626      0.656    0.547      0.151    0.624     0.584     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 21574   240   105 |     a = NewYork
+  5913   536    53 |     b = California
+  5240   166   201 |     c = Georgia
+

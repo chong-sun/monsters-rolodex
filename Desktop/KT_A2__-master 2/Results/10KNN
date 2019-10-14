@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 185 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     twitter-loc-best10-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    96585
+Attributes:   25
+              and
+              are
+              atl
+              atlanta
+              bomb
+              childplease
+              da
+              famu
+              gsu
+              gw
+              haha
+              hahaha
+              hella
+              ii
+              inhighschool
+              la
+              lmaoo
+              lmaooo
+              lml
+              parody
+              rt
+              thatisall
+              the
+              wet
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 185 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 804.07 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       22068               64.8525 %
+Incorrectly Classified Instances     11960               35.1475 %
+Kappa statistic                          0.0279
+Mean absolute error                      0.3436
+Root mean squared error                  0.4133
+Relative absolute error                 97.6409 %
+Root relative squared error             99.0506 %
+Total Number of Instances            34028     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.995    0.973    0.649      0.995    0.786      0.093    0.564     0.694     NewYork
+                 0.039    0.006    0.595      0.039    0.074      0.116    0.561     0.240     California
+                 0.000    0.000    ?          0.000    ?          ?        0.545     0.185     Georgia
+Weighted Avg.    0.649    0.628    ?          0.649    ?          ?        0.560     0.524     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 21812   107     0 |     a = NewYork
+  6246   256     0 |     b = California
+  5540    67     0 |     c = Georgia
+

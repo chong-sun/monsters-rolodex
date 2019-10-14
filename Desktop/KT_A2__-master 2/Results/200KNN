@@ -1,0 +1,47 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 185 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     twitter-loc-best200-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    96585
+Attributes:   455
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 185 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 7869.47 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       22042               64.7761 %
+Incorrectly Classified Instances     11986               35.2239 %
+Kappa statistic                          0.0232
+Mean absolute error                      0.3354
+Root mean squared error                  0.409 
+Relative absolute error                 95.319  %
+Root relative squared error             98.0415 %
+Total Number of Instances            34028     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.996    0.978    0.648      0.996    0.785      0.085    0.636     0.761     NewYork
+                 0.032    0.005    0.598      0.032    0.062      0.106    0.620     0.283     California
+                 0.000    0.000    0.000      0.000    0.000      -0.004   0.598     0.221     Georgia
+Weighted Avg.    0.648    0.631    0.532      0.648    0.518      0.074    0.626     0.581     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 21831    85     3 |     a = NewYork
+  6291   211     0 |     b = California
+  5550    57     0 |     c = Georgia
+

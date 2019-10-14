@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.OneR -B 6
+Relation:     twitter-loc-best200-weka.filters.unsupervised.attribute.Remove-R1-2
+Instances:    96585
+Attributes:   455
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+haha:
+	< 0.5	-> NewYork
+	>= 0.5	-> California
+(61109/96585 instances correct)
+
+
+Time taken to build model: 8.94 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 1.09 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       22008               64.6761 %
+Incorrectly Classified Instances     12020               35.3239 %
+Kappa statistic                          0.0186
+Mean absolute error                      0.2355
+Root mean squared error                  0.4853
+Relative absolute error                 66.9267 %
+Root relative squared error            116.3141 %
+Total Number of Instances            34028     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.996    0.982    0.648      0.996    0.785      0.074    0.507     0.648     NewYork
+                 0.027    0.005    0.564      0.027    0.051      0.090    0.511     0.201     California
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.165     Georgia
+Weighted Avg.    0.647    0.633    ?          0.647    ?          ?        0.507     0.483     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+ 21835    84     0 |     a = NewYork
+  6329   173     0 |     b = California
+  5557    50     0 |     c = Georgia
+
